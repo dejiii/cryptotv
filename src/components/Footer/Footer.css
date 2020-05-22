@@ -1,0 +1,39 @@
+.pp{
+    margin: 0 20px 0 0;
+}
+
+.pp:hover{
+    opacity: .5;
+}
+
+
+
+a, a:hover{
+    text-decoration: none;
+    opacity: .5;
+    color: #fff;
+}
+
+a:hover{
+    opacity: .2;
+}
+
+.main-section div{
+    padding: 5px 0 5px;
+}
+
+.footer-section-wrapper{
+    padding: 5% 0 2%;
+}
+
+.store-banner-wrapper{
+    margin-top: 50px;
+}
+
+.store-banner{
+    height: 40px;
+}
+
+.store-banner:last-child{
+    padding-left: 20px;
+}

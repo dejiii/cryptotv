@@ -1,0 +1,16 @@
+.landing-page-wrapper{
+    padding: 10% 0 10%;
+}
+
+.socials {
+    transform: rotate(90deg);
+}
+
+.social-icons{
+    height: 18px;
+    margin-top: 10px;
+}
+
+.push{
+    margin-top: 90px;
+}
