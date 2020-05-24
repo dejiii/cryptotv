@@ -11,6 +11,7 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-double-marquee": "^1.0.5",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.4.1"
   },
   "scripts": {

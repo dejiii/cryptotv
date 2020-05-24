@@ -7,3 +7,110 @@
 .side-image{
     width: 100%;
 }
+
+.absolute{
+    position: absolute;
+}
+
+.position{
+    position: absolute;
+    width: 100%;
+}
+
+/* .bg1{
+    background-image: url("../images/pl1.jfif");
+}
+
+.bg2{
+    background-image: url("../images/pl2.jfif");
+    position: absolute;
+    width: 100%;
+}
+
+.bg3{
+    background-image: url("../images/pl3.jfif");
+    position: absolute;
+    width: 100%;
+}
+
+.bg4{
+    background-image: url("../images/pl4.jfif");
+    position: absolute;
+    width: 100%;
+}
+
+.bg5{
+    background-image: url("../images/pl5.jfif");
+    position: absolute;
+    width: 100%;
+} */
+
+
+.relative{
+    position: relative;
+    top: 8px;
+    left: 89%;
+    background-color: #f00000;
+    padding: 10px;
+}
+
+.style{
+    width: 100%;
+    height: 310px;
+}
+
+.cover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+.cover:hover{
+    opacity: 1;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.caption-section h3{
+    font-size: 1.5rem;
+    padding-top: 150px;
+    font-weight: bold;
+}
+
+.buttons{
+    padding: 8px 20px 8px;
+    background-color: #747474;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons:last-child{
+    margin-left: 20px;
+}
+
+.buttons:hover{
+    background-color: #505050;
+}
+
+.caption-section p{
+    font-size: 1rem;
+}
+
+.simplebar-scrollbar::before {
+    background-color: red;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #313131; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888888; 
+}

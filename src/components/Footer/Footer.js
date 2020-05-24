@@ -14,7 +14,7 @@ class Footer extends Component {
         return (
             <Container className="footer-section-wrapper">
                 <Row>
-                    <Col>
+                    <Col sm={12} md={5}>
                         <img src={Logo} alt="" />  
                         <div className="store-banner-wrapper">
                             <p className="bold">CRYPTOTV LIVE APP COMING SOON</p>
@@ -22,7 +22,7 @@ class Footer extends Component {
                             <img src={GP}alt="" className="store-banner"/>
                         </div>                  
                     </Col>
-                    <Col>
+                    <Col sm={12} md={7}>
                         <Row>
                             <Col md={4} className="main-section">
                                 <p className="bold">ABOUT</p>
@@ -34,7 +34,7 @@ class Footer extends Component {
                                 </div>
                                 <div>
                                     <a href="/">Advertise with us</a>     
-                                </div>
+                                </div> 
                             </Col>
                             <Col md={4} className="main-section">
                                 <p className="bold">POLICY</p>
