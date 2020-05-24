@@ -1,0 +1,9 @@
+.menu-items{
+    margin: 15px 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-items:hover{
+    border-bottom: 1px solid #ffee00;
+}
