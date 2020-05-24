@@ -21,13 +21,13 @@ class LandingPage extends Component {
                                 </Fade>
                             </div>
                             <center className="mt-2">
-                                <Fade top delay={700}>
+                                <Fade top delay={1000}>
                                     <div><img src={FB} alt="" className="social-icons"/></div>
                                 </Fade>
-                                <Fade top delay={900}>
+                                <Fade top delay={1500}>
                                     <div><img src={TW} alt="" className="social-icons"/></div>
                                 </Fade>
-                                <Fade top delay={1100}>
+                                <Fade top delay={2000}>
                                     <div><img src={YT} alt="" className="social-icons"/></div>
                                 </Fade>
                             </center>
@@ -35,7 +35,6 @@ class LandingPage extends Component {
                         <Col md={9}>
                             <h1 className="bold faded">Now Live</h1>
                             <h4>
-                                {/* <video src={video} width="100%" height="400" controls />         */}
                                 <iframe 
                                     width="100%" 
                                     height="315" 

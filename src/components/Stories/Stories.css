@@ -6,6 +6,14 @@
 
 .side-image{
     width: 100%;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.side-image:hover{
+    opacity: 1;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
 }
 
 .absolute{
@@ -17,39 +25,11 @@
     width: 100%;
 }
 
-/* .bg1{
-    background-image: url("../images/pl1.jfif");
-}
-
-.bg2{
-    background-image: url("../images/pl2.jfif");
-    position: absolute;
-    width: 100%;
-}
-
-.bg3{
-    background-image: url("../images/pl3.jfif");
-    position: absolute;
-    width: 100%;
-}
-
-.bg4{
-    background-image: url("../images/pl4.jfif");
-    position: absolute;
-    width: 100%;
-}
-
-.bg5{
-    background-image: url("../images/pl5.jfif");
-    position: absolute;
-    width: 100%;
-} */
-
 
 .relative{
     position: relative;
-    top: 8px;
-    left: 89%;
+    top: 10px;
+    left: 90%;
     background-color: #f00000;
     padding: 10px;
 }

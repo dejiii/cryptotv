@@ -1,16 +1,16 @@
 body{
     background-color:#000;
     color: #fff;
-    font-family: open-sans;
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
 }
 
 .bold{
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .faded{
-    opacity: .4;
+    opacity: .2;
 }
 
 ::-webkit-scrollbar {

@@ -7,7 +7,7 @@ import FB from "../images/facebook.svg";
 import TW from "../images/twitter.svg";
 import YT from "../images/youtube.svg";
 import AP from "../images/appstore.svg";
-import GP from "../images/crytotv plus.svg";
+import AA from "../images/google play.svg";
 
 class Footer extends Component {
     render() {
@@ -19,7 +19,7 @@ class Footer extends Component {
                         <div className="store-banner-wrapper">
                             <p className="bold">CRYPTOTV LIVE APP COMING SOON</p>
                             <img src={AP} alt="" className="store-banner"/>
-                            <img src={GP}alt="" className="store-banner"/>
+                            <img src={AA}alt="" className="store-banner"/>
                         </div>                  
                     </Col>
                     <Col sm={12} md={7}>

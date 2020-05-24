@@ -49,6 +49,26 @@ class Stories extends Component {
                                         <Col md={7} className="px-0 test">
                                             <div className="absolute style">
                                                 <div className="position">
+                                                    <img src={p5} alt="" className="style"/>
+                                                </div>
+                                                <span className="relative">LIVE</span>                                                
+                                            </div>
+                                        </Col>
+                                        <Col md={5} className="caption-section">
+                                            <h3>Blockchain and Spending Catalyst</h3>
+                                            <p><i>By: Ibim Buskler</i></p>
+                                            <span className="buttons">Share</span>
+                                            <span className="buttons">Queue</span>
+                                        </Col>
+                                    </Row>
+                                    </Fade>
+                                </Col>
+                                <Col className="px-0 cover mt-5" md={12}>
+                                    <Fade bottom>
+                                    <Row>
+                                        <Col md={7} className="px-0 test">
+                                            <div className="absolute style">
+                                                <div className="position">
                                                     <img src={p1} alt="" className="style"/>
                                                 </div>
                                                 <span className="relative">LIVE</span>                                                
@@ -123,34 +143,28 @@ class Stories extends Component {
                                     </Row>
                                     </Fade>
                                 </Col>
-                                <Col className="px-0 cover mt-5" md={12}>
-                                    <Fade bottom>
-                                    <Row>
-                                        <Col md={7} className="px-0 test">
-                                            <div className="absolute style">
-                                                <div className="position">
-                                                    <img src={p5} alt="" className="style"/>
-                                                </div>
-                                                <span className="relative">LIVE</span>                                                
-                                            </div>
-                                        </Col>
-                                        <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
-                                        </Col>
-                                    </Row>
-                                    </Fade>
-                                </Col>
                             </div>
                         </Col>
                         <Col md={3}>
-                            <h1 className="pb-5">Latest</h1>
+                            <h1 className="pb-5 bold">Latest</h1>
                             <div data-simplebar className="latest-stories">
                                 <Fade bottom>
                                 <div>
+                                    <img src={S4} alt="" className="side-image" />
+                                    <h5>Heading</h5>
+                                    <p>sub</p>
+                                </div>
+                                </Fade>
+                                <Fade bottom>
+                                <div>
                                     <img src={S0} alt="" className="side-image" />
+                                    <h5>Heading</h5>
+                                    <p>sub</p>
+                                </div>
+                                </Fade>
+                                <Fade bottom>
+                                <div>
+                                    <img src={S7} alt="" className="side-image" />
                                     <h5>Heading</h5>
                                     <p>sub</p>
                                 </div>
@@ -171,27 +185,13 @@ class Stories extends Component {
                                 </Fade>
                                 <Fade bottom>
                                 <div>
-                                    <img src={S4} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
-                                </div>
-                                </Fade>
-                                <Fade bottom>
-                                <div>
-                                    <img src={S0} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
-                                </div>
-                                </Fade>
-                                <Fade bottom>
-                                <div>
                                     <img src={S5} alt="" className="side-image" />
                                     <h5>Heading</h5>
                                     <p>sub</p>
                                 </div>
                                 </Fade>
                             </div>
-                            <h1 className="mt-5 pb-4">Stories</h1>
+                            <h1 className="mt-5 pb-4 bold">Stories</h1>
                             <div  className="latest-stories">
                                 <Fade bottom>
                                 <div>
@@ -237,7 +237,6 @@ class Stories extends Component {
                                 </Fade>
                             </div>
                         </Col>
-                        
                     </Row>
                 </Container>
                 </Fade>
