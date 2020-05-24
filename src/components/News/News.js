@@ -40,7 +40,7 @@ class News extends Component {
                 <Fade bottom>
                 <Container className="landing-page-wrapper">
                     <Row>
-                        <Col md={4}>
+                        <Col md={3}>
                             <h3 className="bold faded">Menu</h3>
                             <div>
                                 <span className="menu-items"
@@ -75,7 +75,7 @@ class News extends Component {
                                 </span>
                             </div>
                         </Col>
-                        <Col md={8}>
+                        <Col md={9}>
                             {this.switchContent()}
                         </Col>
                     </Row>

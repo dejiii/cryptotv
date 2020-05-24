@@ -7,3 +7,33 @@
 .menu-items:hover{
     border-bottom: 1px solid #ffee00;
 }
+
+.news-image{
+    width: 100%;
+    height: 150px;
+    padding-bottom: 10px;
+}
+
+.light{
+    opacity: .8;
+    cursor: pointer;
+}
+
+.light:hover{
+    opacity: 1;
+    transition: 1s ease-in;
+}
+
+.light span{
+    font-size: .7rem;
+    line-height: .7rem;
+    font-weight: 100;
+}
+
+.buttonz{
+    padding: 8px 15px 8px;
+    background-color: #747474;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}

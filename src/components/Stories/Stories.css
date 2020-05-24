@@ -61,6 +61,7 @@
     background-color: #747474;
     color: #fff;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .buttons:last-child{
