@@ -21,6 +21,7 @@ class Cryptoyans extends Component {
                                 </span>
                             </div>
                             <div className="pt-3">
+                                <span className="duration">12:30</span>
                                 <span className="buttons">Share</span>
                                 <span className="buttons">Queue</span>
                             </div>
@@ -34,6 +35,7 @@ class Cryptoyans extends Component {
                                 </span>
                             </div>
                             <div className="pt-3">
+                                <span className="duration">12:30</span>
                                 <span className="buttons">Share</span>
                                 <span className="buttons">Queue</span>
                             </div>
@@ -47,6 +49,7 @@ class Cryptoyans extends Component {
                                 </span>
                             </div>
                             <div className="pt-3">
+                                <span className="duration">12:30</span>
                                 <span className="buttons">Share</span>
                                 <span className="buttons">Queue</span>
                             </div>

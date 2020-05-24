@@ -37,3 +37,8 @@
     cursor: pointer;
     font-weight: 500;
 }
+
+.duration{
+    padding: 8px 15px 8px;
+    background-color: #fffb00;
+}

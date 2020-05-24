@@ -62,10 +62,7 @@
     color: #fff;
     cursor: pointer;
     font-weight: 500;
-}
-
-.buttons:last-child{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .buttons:hover{
