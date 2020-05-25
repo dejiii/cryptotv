@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 import "./LandingPage.css";
 
-// import video from '../images/6 Google Ads 1.avi';
 import FB from "../images/facebook.svg";
 import TW from "../images/twitter.svg";
 import YT from "../images/youtube.svg";

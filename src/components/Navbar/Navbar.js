@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Navbar, Nav } from "react-bootstrap";
+import Ticker from "react-ticker";
 import "./Navbar.css";
 
 import Logo from "../../logo.svg";
@@ -10,12 +11,15 @@ class NavBar extends Component {
       <Navbar>
         <Container  className="nav-wrapper">
           <Navbar.Brand>
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className="logo"/>
           </Navbar.Brand>
-            <marquee>
-              Some really really really really really long text Some really really really really really long 
-              text Some really really really really really long text Some really really really really really long text
-            </marquee>
+            <Ticker>
+                {() => (
+                    
+                        <h1>CryptoStats go hehre</h1>
+                    
+                )}
+            </Ticker>
           <Nav>
               <a href="/">HOME</a>
               <a href="/">BLOG</a>
