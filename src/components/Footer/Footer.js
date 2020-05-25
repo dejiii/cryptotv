@@ -25,7 +25,7 @@ class Footer extends Component {
                     <Col sm={12} md={7}>
                         <Row>
                             <Col md={4} className="main-section">
-                                <p className="bold">ABOUT</p>
+                                <p className="bold pp">ABOUT</p>
                                 <div>
                                     <a href="/">About us</a>                                   
                                 </div>
@@ -37,7 +37,7 @@ class Footer extends Component {
                                 </div> 
                             </Col>
                             <Col md={4} className="main-section">
-                                <p className="bold">POLICY</p>
+                                <p className="bold pp">POLICY</p>
                                 <div>
                                     <a href="/">Terms of service</a> 
                                 </div>
@@ -46,7 +46,7 @@ class Footer extends Component {
                                 </div>
                             </Col>
                             <Col md={4} className="main-section">
-                                <p className="bold">CONTACT US</p>
+                                <p className="bold pp">CONTACT US</p>
                                 <div>
                                     <a href="mailto:hello@cryptotvplus.com">
                                         hello@cryptotvplus.com

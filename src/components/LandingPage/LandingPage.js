@@ -14,7 +14,7 @@ class LandingPage extends Component {
             <Container fluid>
                 <Container className="landing-page-wrapper">
                     <Row>
-                        <Col md={2} className="push">
+                        <Col md={2} sm={1} className="push sos">
                             <div className="socials">
                                 <Fade left delay={400}>
                                     <p>FOLLOW US </p>
@@ -32,7 +32,7 @@ class LandingPage extends Component {
                                 </Fade>
                             </center>
                         </Col>
-                        <Col md={9}>
+                        <Col md={9} sm={11}>
                             <h1 className="bold faded">Now Live</h1>
                             <h4>
                                 <iframe 

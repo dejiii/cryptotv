@@ -30,15 +30,12 @@
     font-weight: 100;
 }
 
-.buttonz{
-    padding: 8px 15px 8px;
-    background-color: #747474;
-    color: #fff;
-    cursor: pointer;
-    font-weight: 500;
+.pl{
+    margin-left: 10px;
 }
 
 .duration{
     padding: 8px 15px 8px;
-    background-color: #fffb00;
+    background-color: #d4d117;
+    border-radius: 8px;
 }

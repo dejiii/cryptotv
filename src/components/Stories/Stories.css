@@ -6,7 +6,7 @@
 
 .side-image{
     width: 100%;
-    opacity: .6;
+    opacity: .8;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .cover{
-    opacity: .6;
+    opacity: .8;
     cursor: pointer;
 }
 
@@ -62,7 +62,6 @@
     color: #fff;
     cursor: pointer;
     font-weight: 500;
-    margin-left: 15px;
 }
 
 .buttons:hover{
@@ -91,4 +90,17 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: #888888; 
+}
+
+@media screen and (max-width: 600px){
+    .news-image{
+        margin-top: 40px;
+    }
+    .cover{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .ppp{
+        padding-top: 50px;
+    }
 }

@@ -25,3 +25,9 @@ nav a:last-child{
     font-weight: 100;
     font-family: 'Montserrat', sans-serif !important;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-wrapper{
+        display: none !important;
+    }
+}

@@ -6,8 +6,6 @@
     opacity: .5;
 }
 
-
-
 a, a:hover{
     text-decoration: none;
     opacity: .5;
@@ -36,4 +34,17 @@ a:hover{
 
 .store-banner:last-child{
     padding-left: 20px;
+}
+
+.pp{
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-section-wrapper {
+        padding: 5% 5% 7%;
+    }
+    .pp{
+        padding-top: 25px;
+    }
 }

@@ -43,7 +43,7 @@ class Stories extends Component {
                         <Col md={9} className="">
                             <h1 className="bold pb-5">Top Stories</h1>
                             <div className="">
-                                <Col className="px-0 cover" md={12}>
+                                <Col className="px-0 cover" md={12} sm={2}>
                                     <Fade bottom>
                                     <Row>
                                         <Col md={7} className="px-0 test">
@@ -58,7 +58,7 @@ class Stories extends Component {
                                             <h3>Blockchain and Spending Catalyst</h3>
                                             <p><i>By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
+                                            <span className="buttons pl">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -78,7 +78,7 @@ class Stories extends Component {
                                             <h3>Blockchain and Spending Catalyst</h3>
                                             <p><i>By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
+                                            <span className="buttons pl">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -98,7 +98,7 @@ class Stories extends Component {
                                             <h3>Blockchain and Spending Catalyst</h3>
                                             <p><i>By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
+                                            <span className="buttons pl">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -118,7 +118,7 @@ class Stories extends Component {
                                             <h3>Blockchain and Spending Catalyst</h3>
                                             <p><i>By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
+                                            <span className="buttons pl">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -138,15 +138,15 @@ class Stories extends Component {
                                             <h3>Blockchain and Spending Catalyst</h3>
                                             <p><i>By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
-                                            <span className="buttons">Queue</span>
+                                            <span className="buttons pl">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
                                 </Col>
                             </div>
                         </Col>
-                        <Col md={3}>
-                            <h1 className="pb-5 bold">Latest</h1>
+                        <Col md={3} >
+                            <h1 className="pb-5 bold ppp">Latest</h1>
                             <div data-simplebar className="latest-stories">
                                 <Fade bottom>
                                 <div>
@@ -191,7 +191,7 @@ class Stories extends Component {
                                 </div>
                                 </Fade>
                             </div>
-                            <h1 className="mt-5 pb-4 bold">Stories</h1>
+                            <h1 className="mt-5 pb-4 bold ppp">Stories</h1>
                             <div  className="latest-stories">
                                 <Fade bottom>
                                 <div>
