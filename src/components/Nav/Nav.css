@@ -1,0 +1,36 @@
+.nav-wrapper{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.logo{
+    opacity: 1 !important;
+    z-index: 10000;
+    height: 50px;
+}
+
+.nav_links{
+    color: #fff !important;
+    padding: 0 10px 0 0;
+}
+
+.live{
+    color: #fff !important;
+    padding: 0 50px 0 0 !important;
+    color: #fff;
+}
+
+.black{
+    color: #000 !important;
+}
+
+.live::before{
+    content: '';
+    height: 50px;
+    width: 50px;
+    background-color: #f00;
+}
+
+.hover{
+    opacity: 1 !important;
+}

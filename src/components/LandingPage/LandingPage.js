@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import "./LandingPage.css";
+import Ticker from 'react-ticker'
 
 import FB from "../images/facebook.svg";
 import TW from "../images/twitter.svg";
@@ -33,16 +34,13 @@ class LandingPage extends Component {
                         </Col>
                         <Col md={9} sm={11}>
                             <h1 className="bold faded">Now Live</h1>
-                            <h4>
-                                <iframe 
-                                    width="100%" 
-                                    height="315" 
-                                    src="https://www.youtube.com/embed/5DGyHTwduqk" 
-                                    frameborder="0" 
-                                    allow="accelerometer; autoplay; gyroscope" 
-                                    allowfullscreen>
-                                </iframe>
-                            </h4>
+                            <Ticker speed={5}>
+                                {({ index }) => (
+                                    <>
+                                        <h1>This is the Headline of element #{index}!</h1>
+                                    </>
+                                )}
+                            </Ticker>
                         </Col>
                     </Row>
                 </Container>
