@@ -92,6 +92,23 @@
     background: #888888; 
 }
 
+.latest-stories h5{
+    font-size: .9rem;
+    padding: 15px 0 5px;
+    font-weight: bold;
+}
+
+.latest-stories p{
+    opacity: .8;
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.play{
+    height: 15px;
+    margin: 2px;
+}
+
 @media screen and (max-width: 600px){
     .news-image{
         margin-top: 40px;

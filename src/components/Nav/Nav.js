@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Logo from "../../logo.svg";
+import Slide from "./marquee";
 import {Container} from 'react-bootstrap';
 import {
     Collapse,
@@ -18,20 +19,23 @@ const Navb = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Container>
-      <Navbar color="black" expand="md" className="nav-wrapper">
+    <Container className="disappear">
+      <Navbar expand="md" color="light" className="nav-wrapper">
         <NavbarBrand href="/">
             <img src={Logo} alt="" className="logo"/>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
+            {/* <NavItem>
               <NavLink></NavLink>
             </NavItem>
             <NavItem>
               <NavLink></NavLink>
-            </NavItem>
+            </NavItem> */}
+            <div className="not-display" >
+                <Slide />
+            </div>
           </Nav>
           <Nav>
             <Collapse isOpen={isOpen} navbar>
@@ -48,10 +52,6 @@ const Navb = (props) => {
                     <NavItem>
                         <NavLink href="/"className="nav_links">CONTACT US</NavLink>
                     </NavItem>
-                    {/* <a href="/" className="live"> LIVE</a>
-                    <a href="/"className="nav_links">NEWS</a>
-                    <a href="/"className="nav_links">BLOG</a>
-                    <a href="/"className="nav_links">CONTACT US</a> */}
                 </Nav>
             </Collapse>
           </Nav>

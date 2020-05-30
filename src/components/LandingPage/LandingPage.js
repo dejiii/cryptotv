@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import "./LandingPage.css";
-import Ticker from 'react-ticker'
+import bg from '../images/broadcast.jpg';
 
 import FB from "../images/facebook.svg";
 import TW from "../images/twitter.svg";
@@ -34,13 +34,7 @@ class LandingPage extends Component {
                         </Col>
                         <Col md={9} sm={11}>
                             <h1 className="bold faded">Now Live</h1>
-                            <Ticker speed={5}>
-                                {({ index }) => (
-                                    <>
-                                        <h1>This is the Headline of element #{index}!</h1>
-                                    </>
-                                )}
-                            </Ticker>
+                            <img src={bg} alt="" className="styles"/>
                         </Col>
                     </Row>
                 </Container>

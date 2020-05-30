@@ -3,9 +3,10 @@ import { Col, Row } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import "./News.css";
 
-import I1 from '../images/sl3.jfif'
-import I2 from '../images/sl4.jfif'
-import I3 from '../images/sl5.jfif'
+import I1 from '../images/sl3.jfif';
+import I2 from '../images/sl4.jfif';
+import I3 from '../images/sl5.jfif';
+import play from '../../play.svg';
 class Cryptoyans extends Component {
     render() {
         return (
@@ -28,6 +29,9 @@ class Cryptoyans extends Component {
                         </Col>
                         <Col md={4} className="light">
                             <img src={I3} alt="" className="news-image"/>
+                            <div>
+                                <img src={play} alt="" className="play"/>
+                            </div>
                             <div>
                                 <p>WATCH TOWER CONFERENCE</p>
                                 <span>Keeping hackers out of our systems i this day and age of big data and artificial intelligence

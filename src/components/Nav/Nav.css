@@ -24,13 +24,68 @@
     color: #000 !important;
 }
 
-.live::before{
-    content: '';
-    height: 50px;
-    width: 50px;
-    background-color: #f00;
-}
-
 .hover{
     opacity: 1 !important;
+}
+
+.coin-stat{
+    display: flex;
+    flex-direction: row;
+}
+
+.coin-stat span{
+    padding: 0 10px;
+}
+
+.coin-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coin-wrapper div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow-header{
+    color: #ffff00;
+    font-weight: bold;
+}
+
+.bold-price{
+    font-weight: bold;
+}
+
+/* .navbar-toggler{
+    background: #fff;
+} */
+
+/* .navbar-toggler-icon{
+    background-color: #000;
+} */
+
+@media screen and (max-width: 768px) {
+    .navbar-wrapper{
+        padding: 8px 0 !important;
+        background-color: #ffffff !important;
+    }
+
+    .not-display{
+        display: none !important;
+    }
+
+    .disappear{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .styles {
+        width: 100%;
+        height: 254px !important;
+    }
+    .nav_links, .live{
+        color: #fff !important;
+        padding: 10px 0 !important;
+    }
 }

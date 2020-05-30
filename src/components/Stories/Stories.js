@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 // import axios from "axios";
 import "./Stories.css";
+import play from "../../play.svg"
 
 import S0 from "../images/sl1.jfif";
 import S2 from "../images/sl2.jfif";
@@ -151,43 +152,43 @@ class Stories extends Component {
                                 <Fade bottom>
                                 <div>
                                     <img src={S4} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S0} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S7} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S2} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S3} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S5} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5><img src={play} alt="" className="play"/> WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                             </div>
@@ -196,43 +197,43 @@ class Stories extends Component {
                                 <Fade bottom>
                                 <div>
                                     <img src={S6} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S7} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S8} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S0} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S2} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                                 <Fade bottom>
                                 <div>
                                     <img src={S4} alt="" className="side-image" />
-                                    <h5>Heading</h5>
-                                    <p>sub</p>
+                                    <h5>WATCH TOWER CONFERENCE</h5>
+                                    <p>Keeping hackers out of our systems</p>
                                 </div>
                                 </Fade>
                             </div>
