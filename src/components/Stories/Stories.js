@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
-// import axios from "axios";
 import "./Stories.css";
 import play from "../../play.svg"
 
@@ -22,18 +21,6 @@ import p4 from "../images/pl4.jfif";
 import p5 from "../images/pl5.jfif";
 
 class Stories extends Component {
-
-    // constructor(props) {
-    //     super(props);
-
-    //     this.state = {
-    //         crypto: []
-    //     };
-    // }
-
-    // componentDidMount() {
-    //     axios.get
-    // }
 
     render() {
         return (

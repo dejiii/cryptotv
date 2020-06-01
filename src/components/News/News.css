@@ -40,3 +40,50 @@
     opacity: 1;
     border-radius: 8px;
 }
+
+.wt{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+}
+
+.w100{
+    display: block !important;
+    width: 100% !important;
+}
+
+.w1002{
+    display: flex !important;
+    width: 100% !important;
+    justify-content: right;
+    padding-left: 10px;
+}
+
+.ctrlbuttons{
+    background: none;
+    color: #eea700;
+    padding: 5px 20px;
+    border: 1px solid #ddd;
+}
+
+.ctrlbuttons:focused{
+    outline: none;
+}
+
+.ctrlbuttons:first-child{
+    margin-right: 15px;
+}
+
+.horizontalSlider___281Ls{
+    height: 400px;
+}
+.disappear{
+    display: block;
+}
+@media only screen and (max-width:600px) {
+    .disappear{
+        display: none;
+    }
+    .light{
+        margin: 0 10px 0;
+    }
+}
