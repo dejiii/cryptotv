@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import "./Stories.css";
 import play from "../../play.svg"
 
@@ -19,6 +21,10 @@ import p2 from "../images/pl2.jfif";
 import p3 from "../images/pl3.jfif";
 import p4 from "../images/pl4.jfif";
 import p5 from "../images/pl5.jfif";
+
+
+import RA from '../images/right-arrow.svg';
+import LA from '../images/left-arrow.svg';
 
 class Stories extends Component {
 
@@ -133,9 +139,9 @@ class Stories extends Component {
                                 </Col>
                             </div>
                         </Col>
-                        <Col md={3} >
+                        <Col md={3} className="disappear">
                             <h1 className="pb-5 bold ppp">Latest</h1>
-                            <div data-simplebar className="latest-stories">
+                            <div className="latest-stories">
                                 <Fade bottom>
                                 <div>
                                     <img src={S4} alt="" className="side-image" />
@@ -224,6 +230,127 @@ class Stories extends Component {
                                 </div>
                                 </Fade>
                             </div>
+                        </Col>
+                        <Col md={4} className="story-section pt-5">
+                            <h1 className="pb-5 bold ppp">Latest</h1>
+                            {/* <div className="latest-stories"> */}
+                            <CarouselProvider
+                                naturalSlideWidth={100}
+                                naturalSlideHeight={125}
+                                totalSlides={6}
+                                className="d-block dss height"
+                            >
+                                <div className="d-flex float-right w1001">
+                                    <Slider>
+                                        <Slide index={0}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={1}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={2}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={3}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={4}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={5}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                    </Slider>
+                                    <div className="w1002">
+                                        <ButtonBack className="ctrlbuttons"><img src={LA} alt=""/> Latest</ButtonBack>
+                                        <ButtonNext className="ctrlbuttons">Next <img src={RA} alt=""/> </ButtonNext>
+                                    </div>
+                                </div>
+                            </CarouselProvider>                            
+                        </Col>
+                        <Col md={4} className="story-section pt-2">
+                            <h1 className="pb-5 bold ppp">Stories</h1>
+                            <CarouselProvider
+                                naturalSlideWidth={100}
+                                naturalSlideHeight={125}
+                                totalSlides={6}
+                                className="d-block dss height"
+                            >
+                                <div className="d-flex float-right w1001">
+                                    <Slider>
+                                        <Slide index={0}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={1}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={2}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={3}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={4}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                        <Slide index={5}>
+                                                <div>
+                                                    <img src={S6} alt="" className="side-image adjust" />
+                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
+                                                </div>
+                                        </Slide>
+                                    </Slider>
+                                    <div className="w1002">
+                                        <ButtonBack className="ctrlbuttons"><img src={LA} alt=""/> Latest</ButtonBack>
+                                        <ButtonNext className="ctrlbuttons">Next <img src={RA} alt=""/> </ButtonNext>
+                                    </div>
+                                </div>
+                            </CarouselProvider>
                         </Col>
                     </Row>
                 </Container>

@@ -9,6 +9,9 @@ import I1 from '../images/sl3.jfif';
 import I2 from '../images/sl4.jfif';
 import I3 from '../images/sl5.jfif';
 import play from '../../play.svg';
+import RA from '../images/right-arrow.svg';
+import LA from '../images/left-arrow.svg';
+
 class Cryptoyans extends Component {
     render() {
 
@@ -18,7 +21,7 @@ class Cryptoyans extends Component {
                 <CarouselProvider
                     naturalSlideWidth={100}
                     naturalSlideHeight={125}
-                    totalSlides={6}
+                    totalSlides={5}
                     className="d-block dss"
                 >
                     <div className="d-flex float-right w100">
@@ -301,8 +304,8 @@ class Cryptoyans extends Component {
                         </Slider>
                     </div>
                     <div className="w1002">
-                        <ButtonBack className="ctrlbuttons">Back</ButtonBack>
-                        <ButtonNext className="ctrlbuttons">Next</ButtonNext>
+                        <ButtonBack className="ctrlbuttons"><img src={LA} alt=""/> Latest</ButtonBack>
+                        <ButtonNext className="ctrlbuttons">Next <img src={RA} alt=""/> </ButtonNext>
                     </div>
                 </CarouselProvider>
             </Fade>

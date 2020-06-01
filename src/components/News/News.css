@@ -65,6 +65,11 @@
     border: 1px solid #ddd;
 }
 
+.ctrlbuttons img{
+    height: 12px;
+    margin-bottom: 3px;
+}
+
 .ctrlbuttons:focused{
     outline: none;
 }

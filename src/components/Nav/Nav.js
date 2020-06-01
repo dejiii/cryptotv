@@ -19,7 +19,7 @@ const Navb = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Container className="disappear">
+    <Container className="disappears">
       <Navbar expand="md" color="light" className="nav-wrapper">
         <NavbarBrand href="/">
             <img src={Logo} alt="" className="logo"/>
@@ -33,9 +33,6 @@ const Navb = (props) => {
             <NavItem>
               <NavLink></NavLink>
             </NavItem> */}
-            <div className="not-display" >
-                <Slide />
-            </div>
           </Nav>
           <Nav>
             <Collapse isOpen={isOpen} navbar>
@@ -57,6 +54,9 @@ const Navb = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
+      <div className="not-display" >
+          <Slide />
+      </div>
     </Container>
   );
 }

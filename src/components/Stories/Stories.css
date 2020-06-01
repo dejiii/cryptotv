@@ -25,7 +25,6 @@
     width: 100%;
 }
 
-
 .relative{
     position: relative;
     top: 10px;
@@ -109,6 +108,10 @@
     margin: 2px;
 }
 
+.story-section{
+    display: none;
+}
+
 @media screen and (max-width: 600px){
     .news-image{
         margin-top: 40px;
@@ -127,5 +130,29 @@
         background-color: #f00000;
         padding: 10px;
     }
+    .story-section{
+        display: block;
+    }
+    .flex{
+        /* display: flex; */
+        padding: 0 20px 0;
+    }
+    .flex p{
+        display: inline-block;
+        width: 80%;
+    }
+    .w1001{
+        display: block !important;
+        width: 100% !important;
+    }
+    .adjust{
+        height: 150px !important;
+    }
+    /* .flex span:first-child{
+        width: 40%;
+    }
+    .flex span:last-child{
+        width: 60%;
+    } */
 
 }
