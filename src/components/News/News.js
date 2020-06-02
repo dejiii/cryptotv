@@ -40,8 +40,8 @@ class News extends Component {
                 <Fade bottom>
                 <Container className="landing-page-wrapper">
                     <Row>
-                        <Col md={3}>
-                            <h3 className="bold faded">Menu</h3>
+                        <Col md={3} className="smallestText">
+                            <h3 className="bold faded smallText">Menu</h3>
                             <div>
                                 <span className="menu-items"
                                 onClick={() => {

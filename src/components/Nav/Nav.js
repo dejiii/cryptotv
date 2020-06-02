@@ -19,7 +19,7 @@ const Navb = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Container className="disappears">
+    <Container className="disappears smallestText">
       <Navbar expand="md" color="light" className="nav-wrapper">
         <NavbarBrand href="/">
             <img src={Logo} alt="" className="logo"/>

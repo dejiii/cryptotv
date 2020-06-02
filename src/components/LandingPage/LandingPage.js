@@ -15,9 +15,9 @@ class LandingPage extends Component {
                 <Container className="landing-page-wrapper">
                     <Row>
                         <Col md={2} sm={1} className="push sos">
-                            <div className="socials">
+                            <div className="socials smallerText">
                                 <Fade left delay={400}>
-                                    <p>FOLLOW US </p>
+                                    <p className="smallestText">FOLLOW US </p>
                                 </Fade>
                             </div>
                             <center className="mt-2">
@@ -33,7 +33,7 @@ class LandingPage extends Component {
                             </center>
                         </Col>
                         <Col md={9} sm={11}>
-                            <h1 className="bold faded">Now Live</h1>
+                            <h1 className="bold faded smallText">Now Live</h1>
                             <img src={bg} alt="" className="styles"/>
                         </Col>
                     </Row>

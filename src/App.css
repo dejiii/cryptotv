@@ -5,8 +5,25 @@ body{
     overflow-x: hidden;
 }
 
+.smallText{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.smallerText{
+  font-size: 1.2rem;
+}
+
+.smallestText{
+  font-size: 0.8rem;
+}
+
 .bold{
-    font-weight: 800;
+    font-weight: 800; 
+}
+
+.all{
+  line-height: .8rem;
 }
 
 .faded{

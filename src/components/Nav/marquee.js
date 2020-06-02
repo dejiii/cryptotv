@@ -4,7 +4,7 @@ export default class marquee extends Component {
     render() {
         return (
             <div>
-                <marquee behavior="" direction="left">
+                <marquee behavior="" direction="left" className="smallestText">
                     <div className="coin-stat">
                         <span className="coin-wrapper">
                             <div>

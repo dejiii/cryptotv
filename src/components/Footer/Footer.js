@@ -12,7 +12,7 @@ import AA from "../images/google play.svg";
 class Footer extends Component {
     render() {
         return (
-            <Container className="footer-section-wrapper">
+            <Container className="footer-section-wrapper smallestText ">
                 <Row>
                     <Col sm={12} md={5}>
                         <img src={Logo} alt="" className="logo"/>  

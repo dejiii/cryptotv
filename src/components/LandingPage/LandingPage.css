@@ -20,4 +20,7 @@
     .sos{
         display: none;
     }
+    .landing-page-wrapper{
+        padding: 10% 0 2%;
+    }
 }

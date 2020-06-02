@@ -25,6 +25,11 @@
     width: 100%;
 }
 
+.smallImage{
+    width: 120px;
+    height: 90%;
+}
+
 .relative{
     position: relative;
     top: 10px;
@@ -134,7 +139,6 @@
         display: block;
     }
     .flex{
-        /* display: flex; */
         padding: 0 20px 0;
     }
     .flex p{
@@ -147,6 +151,12 @@
     }
     .adjust{
         height: 150px !important;
+    }
+    .push-sm{
+        padding-top: 20px;
+    }
+    .mm{
+        margin-top: 20px;
     }
     /* .flex span:first-child{
         width: 40%;

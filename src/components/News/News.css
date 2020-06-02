@@ -1,5 +1,5 @@
 .menu-items{
-    margin: 15px 5px;
+    margin: 10px 5px;
     display: inline-block;
     cursor: pointer;
 }
@@ -91,4 +91,9 @@
     .light{
         margin: 0 10px 0;
     }
+    .menu-items {
+        margin: 7px 5px;
+        display: inline-block;
+        cursor: pointer;
+    }  
 }

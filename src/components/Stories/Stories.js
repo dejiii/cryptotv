@@ -34,13 +34,13 @@ class Stories extends Component {
                 <Fade>
                 <Container className="landing-page-wrapper">
                     <Row>
-                        <Col md={9} className="">
-                            <h1 className="bold pb-5">Top Stories</h1>
+                        <Col md={9} className="push-sm">
+                            <h1 className="bold  smallText">Top Stories</h1>
                             <div className="">
-                                <Col className="px-0 cover" md={12} sm={2}>
+                                <Col className="px-0 cover mt-sm-4 " md={12} sm={2}>
                                     <Fade bottom>
                                     <Row>
-                                        <Col md={7} className="px-0 test">
+                                        <Col md={7} className="px-0 test mm">
                                             <div className="absolute style">
                                                 <div className="position">
                                                     <img src={p5} alt="" className="style"/>
@@ -140,7 +140,7 @@ class Stories extends Component {
                             </div>
                         </Col>
                         <Col md={3} className="disappear">
-                            <h1 className="pb-5 bold ppp">Latest</h1>
+                            <h1 className="pb-3 bold ppp smallText">Latest</h1>
                             <div className="latest-stories">
                                 <Fade bottom>
                                 <div>
@@ -185,7 +185,7 @@ class Stories extends Component {
                                 </div>
                                 </Fade>
                             </div>
-                            <h1 className="mt-5 pb-4 bold ppp">Stories</h1>
+                            <h1 className="mt-5 pb-4 bold ppp smallText">Stories</h1>
                             <div  className="latest-stories">
                                 <Fade bottom>
                                 <div>
@@ -232,8 +232,7 @@ class Stories extends Component {
                             </div>
                         </Col>
                         <Col md={4} className="story-section pt-5">
-                            <h1 className="pb-5 bold ppp">Latest</h1>
-                            {/* <div className="latest-stories"> */}
+                            <h1 className="pb-2 bold ppp smallText">Latest</h1>
                             <CarouselProvider
                                 naturalSlideWidth={100}
                                 naturalSlideHeight={125}
@@ -293,7 +292,7 @@ class Stories extends Component {
                             </CarouselProvider>                            
                         </Col>
                         <Col md={4} className="story-section pt-2">
-                            <h1 className="pb-5 bold ppp">Stories</h1>
+                            <h1 className="pb-2 bold ppp smallText">Stories</h1>
                             <CarouselProvider
                                 naturalSlideWidth={100}
                                 naturalSlideHeight={125}
@@ -303,49 +302,235 @@ class Stories extends Component {
                                 <div className="d-flex float-right w1001">
                                     <Slider>
                                         <Slide index={0}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S6} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S6} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S6} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S6} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                         <Slide index={1}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S0} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S0} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S0} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S0} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                         <Slide index={2}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S2} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFER1NCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S2} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S2} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S2} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                         <Slide index={3}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S3} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S3} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S3} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S3} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                         <Slide index={4}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S4} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S4} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S4} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S4} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                         <Slide index={5}>
-                                                <div>
-                                                    <img src={S6} alt="" className="side-image adjust" />
-                                                    <h5 className="pt-4">WATCH TOWER CONFERENCE</h5>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ea obcaecati assumenda totam, cum optio molestias corporis officiis facilis recusandae veniam, ducimus deserunt amet deleniti doloribus, laboriosam vero temporibus maiores.</p>
-                                                </div>
+                                            <div className="d-flex">
+                                                <span>
+                                                    <img src={S5} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S5} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S5} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S5} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                </span>
+                                            </div>
                                         </Slide>
                                     </Slider>
-                                    <div className="w1002">
+                                    <div className="w1002 pt-2">
                                         <ButtonBack className="ctrlbuttons"><img src={LA} alt=""/> Latest</ButtonBack>
                                         <ButtonNext className="ctrlbuttons">Next <img src={RA} alt=""/> </ButtonNext>
                                     </div>
