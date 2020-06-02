@@ -27,7 +27,7 @@
 
 .smallImage{
     width: 120px;
-    height: 90%;
+    height: 100%;
 }
 
 .relative{
@@ -121,6 +121,11 @@
 
 }
 
+.story-scroll{
+    height: 500px;
+    overflow-y: scroll;
+}
+
 @media screen and (max-width: 600px){
     .news-image{
         margin-top: 40px;
@@ -128,6 +133,9 @@
     .cover{
         width: 90%;
         margin: 0 auto;
+    }
+    .light{
+        opacity: 1;
     }
     .ppp{
         padding-top: 50px;

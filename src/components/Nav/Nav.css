@@ -57,14 +57,6 @@
     font-weight: bold;
 }
 
-/* .navbar-toggler{
-    background: #fff;
-} */
-
-/* .navbar-toggler-icon{
-    background-color: #000;
-} */
-
 @media screen and (max-width: 768px) {
     .navbar-wrapper{
         padding: 8px 0 !important;

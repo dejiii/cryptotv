@@ -14,6 +14,7 @@ import S5 from "../images/sl5.jfif";
 import S6 from "../images/sl6.jfif";
 import S7 from "../images/sl7.jfif";
 import S8 from "../images/sl8.jfif";
+import SL8 from "../images/sl8.jfif";
 
 
 import p1 from "../images/pl1.jfif";
@@ -291,256 +292,199 @@ class Stories extends Component {
                                 </div>
                             </CarouselProvider>                            
                         </Col>
-                        <Col md={4} className="story-section pt-2">
+                        <Col md={4} className="story-section pt-2 ">
                             <h1 className="pb-2 bold ppp smallText">Stories</h1>
-                            <CarouselProvider
-                                naturalSlideWidth={100}
-                                naturalSlideHeight={125}
-                                totalSlides={6}
-                                className="d-block dss height"
-                            >
-                                <div className="d-flex float-right w1001">
-                                    <Slider>
-                                        <Slide index={0}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                        <Slide index={1}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S2} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                        <Slide index={2}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFER1NCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S2} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                        <Slide index={3}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S3} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                        <Slide index={4}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S4} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                        <Slide index={5}>
-                                            <div className="d-flex">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
-                                                </span>
-                                            </div>
-                                        </Slide>
-                                    </Slider>
-                                    <div className="w1002 pt-2">
-                                        <ButtonBack className="ctrlbuttons"><img src={LA} alt=""/> Latest</ButtonBack>
-                                        <ButtonNext className="ctrlbuttons">Next <img src={RA} alt=""/> </ButtonNext>
-                                    </div>
+                            <div className="story-scroll">
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
                                 </div>
-                            </CarouselProvider>
-                        </Col>
-                    </Row>
-                </Container>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                                <div className="d-flex pt-2">
+                                    <span>
+                                        <img src={SL8} alt="" className="smallImage"/>
+                                    </span>
+                                    <span className="ml-2">
+                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestTextStory">Keeping hackers out of our systems...</span>
+                                    </span>
+                                </div>
+                            </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Fade>
             </Container>
+                            
+                            
+                          
+                        
         );
     }
 }
