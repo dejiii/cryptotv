@@ -300,7 +300,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -309,7 +309,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -318,7 +318,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -327,7 +327,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -336,7 +336,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -345,7 +345,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -354,7 +354,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -363,7 +363,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -372,7 +372,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -381,7 +381,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -390,7 +390,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -399,7 +399,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -408,7 +408,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -417,7 +417,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -426,7 +426,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -435,7 +435,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -444,7 +444,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -453,7 +453,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -462,7 +462,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>
@@ -471,7 +471,7 @@ class Stories extends Component {
                                         <img src={SL8} alt="" className="smallImage"/>
                                     </span>
                                     <span className="ml-2">
-                                        <span className="smallest">WATCH TOWER CONFERENCE</span><br/>
+                                        <span className="smallestText">WATCH TOWER CONFERENCE</span><br/>
                                         <span className="smallestTextStory">Keeping hackers out of our systems...</span>
                                     </span>
                                 </div>

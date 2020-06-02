@@ -15,7 +15,7 @@ class Footer extends Component {
             <Container className="footer-section-wrapper smallestText ">
                 <Row>
                     <Col sm={12} md={5}>
-                        <img src={Logo} alt="" className="logo"/>  
+                        <img src={Logo} alt="" className="logo pptop"/>  
                         <div className="store-banner-wrapper">
                             <p className="bold">CRYPTOTV LIVE APP COMING SOON</p>
                             <img src={AP} alt="" className="store-banner"/>

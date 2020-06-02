@@ -27,12 +27,12 @@
 
 .smallImage{
     width: 120px;
-    height: 100%;
+    height: 80px;
 }
 
 .relative{
     position: relative;
-    top: 10px;
+    top: 7px;
     left: 90%;
     background-color: #f00000;
     padding: 10px;
@@ -142,7 +142,7 @@
     }
     .relative{
         position: relative;
-        top: 10px;
+        top: 9px;
         left: 85%;
         background-color: #f00000;
         padding: 10px;

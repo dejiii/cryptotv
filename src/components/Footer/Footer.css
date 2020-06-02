@@ -42,7 +42,10 @@ a:hover{
 
 @media screen and (max-width: 600px) {
     .footer-section-wrapper {
-        padding: 5% 5% 7%;
+        padding: 15% 5% 7%;
+    }
+    .store-banner-wrapper {
+        margin-top: 30px;
     }
     .pp{
         padding-top: 25px;
