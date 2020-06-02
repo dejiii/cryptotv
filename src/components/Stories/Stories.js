@@ -49,8 +49,8 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
+                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
                                             <span className="buttons pl">Queue</span>
                                         </Col>
@@ -69,8 +69,8 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
+                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
                                             <span className="buttons pl">Queue</span>
                                         </Col>
@@ -89,8 +89,8 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
+                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
                                             <span className="buttons pl">Queue</span>
                                         </Col>
@@ -109,8 +109,8 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
+                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
                                             <span className="buttons pl">Queue</span>
                                         </Col>
@@ -129,8 +129,8 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3>Blockchain and Spending Catalyst</h3>
-                                            <p><i>By: Ibim Buskler</i></p>
+                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
                                             <span className="buttons">Share</span>
                                             <span className="buttons pl">Queue</span>
                                         </Col>
@@ -308,45 +308,45 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
+                                                    <img src={S0} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
+                                                    <img src={S3} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText all">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S6} alt="" className="smallImage"/>
+                                                    <img src={S5} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>
                                         <Slide index={1}>
                                             <div className="d-flex">
                                                 <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
+                                                    <img src={S2} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -355,36 +355,36 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
+                                                    <img src={S6} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S0} alt="" className="smallImage"/>
+                                                    <img src={S3} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>
                                         <Slide index={2}>
                                             <div className="d-flex">
                                                 <span>
-                                                    <img src={S2} alt="" className="smallImage"/>
+                                                    <img src={S6} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFER1NCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -393,25 +393,25 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S2} alt="" className="smallImage"/>
+                                                    <img src={S0} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S2} alt="" className="smallImage"/>
+                                                    <img src={S5} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>
@@ -422,7 +422,7 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -431,7 +431,7 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -440,7 +440,7 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -449,18 +449,18 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>
                                         <Slide index={4}>
                                             <div className="d-flex">
                                                 <span>
-                                                    <img src={S4} alt="" className="smallImage"/>
+                                                    <img src={S0} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -469,36 +469,36 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S4} alt="" className="smallImage"/>
+                                                    <img src={S5} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
                                                 <span>
-                                                    <img src={S4} alt="" className="smallImage"/>
+                                                    <img src={S0} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>
                                         <Slide index={5}>
                                             <div className="d-flex">
                                                 <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
+                                                    <img src={S0} alt="" className="smallImage"/>
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -507,7 +507,16 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
+                                                </span>
+                                            </div>
+                                            <div className="d-flex mt-2">
+                                                <span>
+                                                    <img src={S0} alt="" className="smallImage"/>
+                                                </span>
+                                                <span className="ml-2">
+                                                    <h6>WATCH TOWER CONFERENCE</h6>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                             <div className="d-flex mt-2">
@@ -516,16 +525,7 @@ class Stories extends Component {
                                                 </span>
                                                 <span className="ml-2">
                                                     <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText all">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
-                                                </span>
-                                            </div>
-                                            <div className="d-flex mt-2">
-                                                <span>
-                                                    <img src={S5} alt="" className="smallImage"/>
-                                                </span>
-                                                <span className="ml-2">
-                                                    <h6>WATCH TOWER CONFERENCE</h6>
-                                                    <span className="smallestText">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</span>
+                                                    <span className="smallestText">Keeping hackers out of our systems...</span>
                                                 </span>
                                             </div>
                                         </Slide>

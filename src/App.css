@@ -22,6 +22,10 @@ body{
     font-weight: 800; 
 }
 
+.yellowText{
+  color: #f5ff3f;
+}
+
 .all{
   line-height: .8rem;
 }
