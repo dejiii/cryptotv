@@ -6,20 +6,28 @@ body{
 }
 
 .smallText{
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   letter-spacing: 2px;
 }
 
 .smallerText{
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
 }
 
 .smallestText{
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
 }
 
 .bold{
     font-weight: 800; 
+}
+
+.smallYellowHeading{
+  color: #f5ff3f;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 .yellowText{

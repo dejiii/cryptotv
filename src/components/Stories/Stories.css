@@ -56,7 +56,7 @@
 
 .caption-section h3{
     font-size: 1.5rem;
-    padding-top: 150px;
+    padding-top: 195px;
     font-weight: bold;
 }
 
@@ -115,6 +115,10 @@
 
 .story-section{
     display: none;
+}
+
+.pptop{
+
 }
 
 @media screen and (max-width: 600px){

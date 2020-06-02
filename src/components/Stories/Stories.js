@@ -35,7 +35,7 @@ class Stories extends Component {
                 <Container className="landing-page-wrapper">
                     <Row>
                         <Col md={9} className="push-sm">
-                            <h1 className="bold  smallText">Top Stories</h1>
+                            <h1 className="bold  smallerText">Top Stories</h1>
                             <div className="">
                                 <Col className="px-0 cover mt-sm-4 " md={12} sm={2}>
                                     <Fade bottom>
@@ -49,10 +49,10 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
-                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons pl">Queue</span>
+                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="smallestText">By: Ibim Buskler</i></p>
+                                            <span className="buttons smallestText">Share</span>
+                                            <span className="buttons pl smallestText">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -69,10 +69,10 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
-                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons pl">Queue</span>
+                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="smallestText">By: Ibim Buskler</i></p>
+                                            <span className="buttons smallestText">Share</span>
+                                            <span className="buttons pl smallestText">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -89,10 +89,10 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
-                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons pl">Queue</span>
+                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="smallestText">By: Ibim Buskler</i></p>
+                                            <span className="buttons smallestText">Share</span>
+                                            <span className="buttons pl smallestText">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -109,17 +109,17 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
-                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons pl">Queue</span>
+                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="smallestText">By: Ibim Buskler</i></p>
+                                            <span className="buttons smallestText">Share</span>
+                                            <span className="buttons pl smallestText">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
                                 </Col>
                                 <Col className="px-0 cover mt-5" md={12}>
                                     <Fade bottom>
-                                    <Row>
+                                    <Row className="pptop">
                                         <Col md={7} className="px-0 test">
                                             <div className="absolute style">
                                                 <div className="position">
@@ -129,10 +129,10 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallerText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
-                                            <p><i className="yellowText">By: Ibim Buskler</i></p>
-                                            <span className="buttons">Share</span>
-                                            <span className="buttons pl">Queue</span>
+                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <p><i className="smallestText">By: Ibim Buskler</i></p>
+                                            <span className="buttons smallestText">Share</span>
+                                            <span className="buttons pl smallestText">Queue</span>
                                         </Col>
                                     </Row>
                                     </Fade>
@@ -140,7 +140,7 @@ class Stories extends Component {
                             </div>
                         </Col>
                         <Col md={3} className="disappear">
-                            <h1 className="pb-3 bold ppp smallText">Latest</h1>
+                            <h1 className="pb-3 bold ppp smallerText">Latest</h1>
                             <div className="latest-stories">
                                 <Fade bottom>
                                 <div>
