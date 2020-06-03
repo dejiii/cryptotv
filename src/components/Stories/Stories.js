@@ -50,7 +50,7 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <h3 className="smallestText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
                                             <p><i className="smallestText">By: Ibim Buskler</i></p>
                                             <span className="buttons smallestText">Share</span>
                                             <span className="buttons pl smallestText">Queue</span>
@@ -70,7 +70,7 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <h3 className="smallestText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
                                             <p><i className="smallestText">By: Ibim Buskler</i></p>
                                             <span className="buttons smallestText">Share</span>
                                             <span className="buttons pl smallestText">Queue</span>
@@ -90,7 +90,7 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <h3 className="smallestText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
                                             <p><i className="smallestText">By: Ibim Buskler</i></p>
                                             <span className="buttons smallestText">Share</span>
                                             <span className="buttons pl smallestText">Queue</span>
@@ -110,7 +110,7 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <h3 className="smallestText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
                                             <p><i className="smallestText">By: Ibim Buskler</i></p>
                                             <span className="buttons smallestText">Share</span>
                                             <span className="buttons pl smallestText">Queue</span>
@@ -130,7 +130,7 @@ class Stories extends Component {
                                             </div>
                                         </Col>
                                         <Col md={5} className="caption-section">
-                                            <h3 className="smallestText">BLOCKCHAIN AND SPENDING CATALYST</h3>
+                                            <h3 className="smallestText yellowText">BLOCKCHAIN AND SPENDING CATALYST</h3>
                                             <p><i className="smallestText">By: Ibim Buskler</i></p>
                                             <span className="buttons smallestText">Share</span>
                                             <span className="buttons pl smallestText">Queue</span>

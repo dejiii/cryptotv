@@ -43,17 +43,6 @@
     height: 310px;
 }
 
-.cover{
-    opacity: .8;
-    cursor: pointer;
-}
-
-.cover:hover{
-    opacity: 1;
-    transition-duration: .5s;
-    transition-timing-function: ease-out;
-}
-
 .caption-section h3{
     font-size: 1.5rem;
     padding-top: 195px;
